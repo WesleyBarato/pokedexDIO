@@ -1,0 +1,21 @@
+/* Para aplicar em todos os elementos usa-se o asterisco */
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.content {
+    height: 100vh;
+    width: 100vw;
+    padding: 1rem;
+}
+
+@media screen and (min-width: 992px){
+    .content {
+        max-width: 992px;
+        height: auto;
+        margin: 1rem auto;
+        border-radius: 1rem;
+    }
+}
+
